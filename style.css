@@ -264,3 +264,39 @@ td {
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+.container {
+    position:relative;
+    top:60%;
+
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div {
+    margin: 10px;
+}
+.container div label {
+    cursor: pointer;
+}
+.container div label input[type="checkbox"] {
+    display: none;
+}
+.container div label span {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    background: cornflowerblue;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+.container div label input[type="checkbox"]:checked ~ span {
+    background: #7d0efb;
+    box-shadow: 0 2px 7px #000;
+}
