@@ -47,10 +47,11 @@ ul{
 .login-btn{
     display: block;
     font-size: 19px;
+    color:#fff;
     font-weight: 700;
     cursor: pointer;
     border-radius: 30px;
-    background-color: #f3ef51;
+    background-color: #7d0efb;
     padding: 8px 40px;
     margin-right: 100px;
 }
@@ -111,12 +112,12 @@ ul{
 .btn-group .signup-btn{
     cursor: pointer;
     display: block;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 15px;
     font-weight: 700;
     border-radius: 32px;
-    background-color: #ffa037;
+    background-color: #7d0efb;
     padding: 15px 50px;
 }
 
@@ -202,10 +203,19 @@ ul{
 }
 
 .social-icons ul li a:hover{
-    background-color: #220efb;
+    background-color: #7d0efb;
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.app-picture{
+    width: 50%;
+    float: right;
+    padding-right: 50px;
+}
+
+>>>>>>> 6968c1a36a6f143d37d8a3121d5af9770dbae9b6
 table {
     border-radius: 20px;
     width: 750px;
@@ -225,4 +235,8 @@ table, th, td {
 th, td {
     border-radius: 20px;
     padding: 5px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6968c1a36a6f143d37d8a3121d5af9770dbae9b6
