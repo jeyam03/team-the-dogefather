@@ -155,13 +155,14 @@ ul{
     width: 50px;
     border: 2px solid transparent;
     border-radius: 50%;
-    background-color: #000;
+    background-color: #7d0efb;
 }
 
 .play-btn-inner i{
     padding: 15px 19px;
     font-size: 16px;
     cursor: pointer;
+    color: #fff
 }
 
 .about-services{
@@ -258,4 +259,8 @@ td {
     top: 200px;
     text-align: center;
     text-decoration: overline;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
