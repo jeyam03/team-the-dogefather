@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -35,18 +35,6 @@ input:focus::-ms-input-placeholder{color: transparent}
 input::-webkit-input-placeholder{color: #ccc;}
 
 textarea::-webkit-input-placeholder{color: #ccc;}
-
-.container-signup{
-    width: 500px;
-    /* text-align: center; */
-    left: 50px;
-    position: relative;
-}
-
-/* .signup-more{
-    width: calc(100% - 1000px);
-    position: relative;
-} */
 
 .wrap-signup{
     width: 500px;
