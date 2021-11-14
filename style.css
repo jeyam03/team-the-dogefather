@@ -64,6 +64,12 @@ ul{
     color: #fff;
 }
 
+.app-picture{
+    width: 50%;
+    float: right;
+    padding-right: 50px;
+}
+
 .app-text{
     width: 50%;
     float: left;
@@ -200,3 +206,23 @@ ul{
     color: #fff;
 }
 
+table {
+    border-radius: 20px;
+    width: 750px;
+    margin:auto;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+th, td {
+    border-radius: 20px;
+    padding: 5px;
+}
