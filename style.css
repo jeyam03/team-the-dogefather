@@ -13,6 +13,13 @@ ul{
     list-style: none;
 }
 
+.maps{
+    position: relative;
+    top: 160px;
+    left: 750px;
+    border-radius: 20px;
+}
+
 .header{
     width: 100%;
     height: 60vh;
@@ -93,6 +100,15 @@ ul{
     margin-top: 30px;
     font-weight: 700;
     line-height: 1;
+}
+
+.app-text h2{
+    margin-top: 50px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .app-text p{
@@ -242,4 +258,8 @@ td {
     top: 200px;
     text-align: center;
     text-decoration: overline;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d254d9d6912d3de2c3b0233ed50e2c144e31545c
