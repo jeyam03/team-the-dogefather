@@ -207,15 +207,12 @@ ul{
     color: #fff;
 }
 
-<<<<<<< HEAD
-=======
 .app-picture{
     width: 50%;
     float: right;
     padding-right: 50px;
 }
 
->>>>>>> 6968c1a36a6f143d37d8a3121d5af9770dbae9b6
 table {
     border-radius: 20px;
     width: 750px;
@@ -235,8 +232,5 @@ table, th, td {
 th, td {
     border-radius: 20px;
     padding: 5px;
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> 6968c1a36a6f143d37d8a3121d5af9770dbae9b6
