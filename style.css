@@ -47,10 +47,11 @@ ul{
 .login-btn{
     display: block;
     font-size: 19px;
+    color:#fff;
     font-weight: 700;
     cursor: pointer;
     border-radius: 30px;
-    background-color: #f3ef51;
+    background-color: #7d0efb;
     padding: 8px 40px;
     margin-right: 100px;
 }
@@ -105,12 +106,12 @@ ul{
 .btn-group .signup-btn{
     cursor: pointer;
     display: block;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 15px;
     font-weight: 700;
     border-radius: 32px;
-    background-color: #ffa037;
+    background-color: #7d0efb;
     padding: 15px 50px;
 }
 
@@ -196,7 +197,7 @@ ul{
 }
 
 .social-icons ul li a:hover{
-    background-color: #220efb;
+    background-color: #7d0efb;
     color: #fff;
 }
 
