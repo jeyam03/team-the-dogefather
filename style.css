@@ -302,7 +302,7 @@ body {
     box-shadow: 0 2px 7px #000;
 }
 
-.wrap-input{
+.token-input{
     width: 200px;
     position: relative;
     top: 200px;
@@ -310,14 +310,14 @@ body {
     border-bottom: 2px solid #dbdbdb;
     margin-bottom: 25px;
 }
-.label-input{
+.token-label-input{
     font-size: 20px;
     font-weight: 600;
     color: #999999;
     line-height: 1.2;
     padding-left: 2px;
 }
-.input{
+.token-roll{
     display: block;
     width: 200px;
     height: 50px;
@@ -330,7 +330,7 @@ body {
     border-color: #fff;
 }
 
-.focus-input{
+.token-focus-input{
     position: absolute;
     display: block;
     width: 100px;
@@ -340,7 +340,7 @@ body {
     pointer-events: none;
 }
 
-.focus-input::before{
+.token-focus-input::before{
     content: "";
     display: block;
     position: absolute;
@@ -355,6 +355,21 @@ body {
     background: #d5007d;
 }
 
-.input:focus+ .focus-input::before{
+.token-roll:focus+ .token-focus-input::before{
     width: 100%;
+}
+
+.submit-btn{
+    position: relative;
+    top: 500px;
+    margin-left: auto;
+    right: 300px;
+    width: 150px;
+    font-size: 20px;
+    color:#fff;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #7d0efb;
+    padding: 8px 40px;
 }
