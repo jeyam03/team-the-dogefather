@@ -1,107 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>PSG College of Technology</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PSG College of Technology</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="admission.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-	<div class="header">
-    <div class="navbar">
-        <div class="logo">
-            <a href="https://psgtech.edu/"><img src="images/logo.png"></a>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://psgtech.edu/"><img src="images/logo.png"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="admission.html">
+                        <li>Admission</li>
+                    </a>
+                    <a href="mess.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="messDeduction.html">
+                        <li>Mess Deduction</li>
+                    </a>
+                    <a href="entry.html">
+                        <li>Entry</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <a href="login.html">
+                <div class="login-btn">Login</div>
+            </a>
         </div>
-        <div class="menu">
+
+        <div class="wrapper">
+            <div class="title">
+                Admission Form
+            </div>
+
+            <div class="form">
+                <div class="inputfield">
+                    <label>First Name</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Last Name</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Gender</label>
+                    <div class="custom_select">
+                        <select>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inputfield">
+                    <label>Email Address</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Phone Number</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Room No.</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Address</label>
+                    <textarea class="textarea"></textarea>
+                </div>
+
+                <div class="inputfield">
+                    <label>Postal Code</label>
+                    <input type="text" class="input">
+                </div>
+
+                <div class="inputfield terms">
+                    <label class="check">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Agreed to terms and conditions</p>
+                </div>
+
+                <div class="inputfield">
+                    <input type="submit" value="Register" class="btn">
+                </div>
+            </div>
+        </div>
+
+        <div class="social-icons">
             <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="admission.html"><li>Admission</li></a>
-                <a href="mess.html"><li>Menu</li></a>
-                <a href="entry.html"><li>Entry</li></a>
-                <a href="contact.html"><li>Contact</li></a>
+                <li><a href="https://www.facebook.com/psgtech/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/psgtech" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://in.linkedin.com/school/psg-college-of-technology/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/golden_psgtech/" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
             </ul>
         </div>
-        <a href="login.html"><div class="login-btn">Login</div></a>
-    </div>   
-
-    <div class="wrapper">
-        <div class="title">
-        Admission Form
-        </div>
-
-        <div class="form">
-            <div class="inputfield">
-                <label>First Name</label>
-                <input type="text" class="input">
-            </div>  
-            
-        <div class="inputfield">
-            <label>Last Name</label>
-            <input type="text" class="input">
-        </div>  
-
-        <div class="inputfield">
-            <label>Gender</label>
-            <div class="custom_select">
-                <select>
-                <option value="">Select</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                </select>
-            </div>
-        </div> 
-
-        <div class="inputfield">
-            <label>Email Address</label>
-            <input type="text" class="input">
-        </div> 
-
-        <div class="inputfield">
-            <label>Phone Number</label>
-            <input type="text" class="input">
-        </div> 
-
-        <div class="inputfield">
-            <label>Room No.</label>
-            <input type="text" class="input">
-        </div> 
-
-        <div class="inputfield">
-            <label>Address</label>
-            <textarea class="textarea"></textarea>
-        </div> 
-
-        <div class="inputfield">
-            <label>Postal Code</label>
-            <input type="text" class="input">
-        </div> 
-
-        <div class="inputfield terms">
-            <label class="check">
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            <p>Agreed to terms and conditions</p>
-        </div> 
-        
-        <div class="inputfield">
-            <input type="submit" value="Register" class="btn">
-        </div>
-        </div>
-    </div>	
-
-    <div class="social-icons">
-        <ul>
-            <li><a href="https://www.facebook.com/psgtech/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/psgtech" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://in.linkedin.com/school/psg-college-of-technology/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/golden_psgtech/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-    </div>
     </div>
 
 </body>
+
 </html>
